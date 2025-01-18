@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home/homepagewithmenu.dart';
+import 'package:pemrograman_mobile/layout/home/Homepagewithmenu.dart';
 
 
 void main() {
@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-          title: 'Multiple List with Cards',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyanAccent),
-          useMaterial3: true,
-        ),
+      title: 'Multiple List with Cards',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyanAccent),
+        useMaterial3: true,
+      ),
       home: MainScreen(),
-        );
+    );
   }
 }
